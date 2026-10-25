@@ -1,54 +1,54 @@
-# Solid Geeks — Guide d'usage du logo
+# Solid Geeks — Logo usage guide
 
-## 1. Le logo
-**Idée :** une barre de muscu dont les disques sont des crochets `[ ]`. Le code qui soulève de la fonte : *solide* et *geek* en un coup d'œil.
+## 1. The logo
+**Idea:** a barbell whose plates are brackets `[ ]`. Code that lifts iron: *solid* and *geek* at a glance.
 
-**Versions :**
-- **Horizontale** (principale) : `sg-horizontal-*.svg`
-- **Empilée** : `sg-stacked-*.svg`
-- **Symbole seul** : `sg-symbol-*.svg`
-- **Nom seul** : `sg-wordmark-ink.svg`
-- **Petite taille** (16–24 px) : `sg-symbol-small.svg` et `sg-favicon-tile.svg`, dessinés au pixel.
+**Versions:**
+- **Horizontal** (main): `sg-horizontal-*.svg`
+- **Stacked**: `sg-stacked-*.svg`
+- **Symbol only**: `sg-symbol-*.svg`
+- **Name only**: `sg-wordmark-ink.svg`
+- **Small sizes** (16–24 px): `sg-symbol-small.svg` and `sg-favicon-tile.svg`, drawn pixel by pixel.
 
-Le symbole est construit sur une grille de 4 unités, symétrique sur les deux axes. Disques : 36 × 176. Bras des crochets : 24 × 28. Barre : 16. Colliers : 12 × 48.
+The symbol is built on a 4-unit grid, symmetrical on both axes. Plates: 36 × 176. Bracket arms: 24 × 28. Bar: 16. Collars: 12 × 48.
 
-## 2. Zone de protection
-Autour du logo, garde un espace libre égal à **la largeur d'un disque** (un montant vertical du crochet). La zone grandit avec le logo.
+## 2. Clear space
+Around the logo, keep a free space equal to **the width of one plate** (one upright of a bracket). The space grows with the logo.
 
-## 3. Tailles minimales
-| Version | Écran | Impression |
+## 3. Minimum sizes
+| Version | Screen | Print |
 |---|---|---|
-| Horizontale | 120 px de large | 30 mm |
-| Symbole (master) | 32 px | 8 mm |
-| Symbole (petite taille) | 16 px | 5 mm |
+| Horizontal | 120 px wide | 30 mm |
+| Symbol (master) | 32 px | 8 mm |
+| Symbol (small size) | 16 px | 5 mm |
 
-## 4. Couleurs
-| Nom | HEX | RGB | CMJN (approx.) | Usage |
+## 4. Colours
+| Name | HEX | RGB | CMYK (approx.) | Use |
 |---|---|---|---|---|
-| **Volt** | `#C8FF2E` | 200 255 46 | 22 0 82 0 | Le symbole sur fond sombre. La signature. |
-| **Encre** | `#0D0F0C` | 13 15 12 | 75 60 70 90 (noir riche) | Fonds, texte, logo sur fond clair. |
-| Blanc | `#FFFFFF` | 255 255 255 | 0 0 0 0 | Nom sur fond sombre. |
+| **Volt** | `#C8FF2E` | 200 255 46 | 22 0 82 0 | The symbol on dark backgrounds. The signature. |
+| **Ink** | `#0D0F0C` | 13 15 12 | 75 60 70 90 (rich black) | Backgrounds, text, logo on light backgrounds. |
+| White | `#FFFFFF` | 255 255 255 | 0 0 0 0 | The name on dark backgrounds. |
 
-Le Volt n'a pas d'équivalent Pantone exact. Pour l'impression (stickers, t-shirts), il faut valider sur nuancier un vert fluo de type 802 C.
+Volt has no exact Pantone match. For print (stickers, T-shirts), check a fluorescent green such as 802 C against a swatch book.
 
-**Associations autorisées :**
-- Symbole Volt et nom blanc sur Encre (avatars, README sombre, t-shirt).
-- Logo tout Encre sur fond blanc ou clair.
-- Logo tout blanc sur photo sombre.
-- Logo tout Encre sur fond Volt.
+**Allowed combinations:**
+- Volt symbol and white name on Ink (avatars, dark README, T-shirt).
+- All-Ink logo on white or light backgrounds.
+- All-white logo on a dark photo.
+- All-Ink logo on a Volt background.
 
-**Interdit :** le Volt sur fond blanc. Le contraste est d'environ 1,1:1, donc illisible.
+**Not allowed:** Volt on white. The contrast is about 1.1:1, so it cannot be read.
 
-## 5. Typographie
-- **Nom :** DejaVu Sans Mono Bold, vectorisée, avec l'espace entre les mots réduit à 60 %. Ne pas retaper le nom au clavier : toujours utiliser les fichiers.
-- **Site et docs :** titres en DejaVu Sans Mono ou JetBrains Mono, texte en Inter.
-- **Licences :** DejaVu (licence Bitstream Vera), JetBrains Mono et Inter (SIL OFL). Toutes sont libres, y compris pour un logo.
+## 5. Typography
+- **Name:** DejaVu Sans Mono Bold, outlined, with the space between the words reduced to 60 %. Never type the name: always use the files.
+- **Site and docs:** headings in DejaVu Sans Mono or JetBrains Mono, body text in Inter.
+- **Licenses:** DejaVu (Bitstream Vera license), JetBrains Mono and Inter (SIL OFL). All are free, including for a logo.
 
-## 6. Avatars et web
-- **GitHub (organisation) et Discord (serveur) :** `png/sg-avatar-1024.png`. Il est prévu pour résister au recadrage rond.
-- **Aperçu social GitHub** (Settings → Social preview) : `png/sg-social-preview-1280x640.png`.
-- **Site :** copie le contenu de `web/` à côté de la page et colle `web/head-snippet.html` dans le `<head>`. Les chemins sont relatifs : ça marche aussi pour un site GitHub Pages servi dans un sous-dossier (`/SolidGeeks/`, `/strata/`…).
-- **README GitHub** (bascule automatique clair/sombre) :
+## 6. Avatars and web
+- **GitHub (organization) and Discord (server):** `png/sg-avatar-1024.png`. It is made to survive the round crop.
+- **GitHub social preview** (Settings → Social preview): the cards in [SolidGeeks/.github `assets/social-preview/`](https://github.com/SolidGeeks/.github/tree/main/assets/social-preview), the crew for the organization's repositories and one card per project. `png/sg-social-preview-1280x640.png` is the logo-only alternative.
+- **Website:** copy the contents of `web/` next to the page and paste `web/head-snippet.html` into the `<head>`. Paths are relative: this also works for a GitHub Pages site served from a subfolder (`/SolidGeeks/`, `/strata/`…).
+- **GitHub README** (switches between light and dark automatically):
 
 ```html
 <picture>
@@ -57,14 +57,14 @@ Le Volt n'a pas d'équivalent Pantone exact. Pour l'impression (stickers, t-shir
 </picture>
 ```
 
-## 7. À ne pas faire
-- Ne pas étirer, écraser ni pivoter le logo.
-- Ne pas recolorer hors palette.
-- Ne pas ajouter d'ombre, de contour, de dégradé ni d'effet néon.
-- Ne pas séparer, déplacer ni redimensionner les éléments d'une déclinaison.
-- Ne pas poser le logo sur un fond chargé sans aplat.
-- Ne pas utiliser le symbole master en dessous de 32 px : prendre la version petite taille.
+## 7. Don'ts
+- Do not stretch, squash or rotate the logo.
+- Do not recolour it outside the palette.
+- Do not add shadows, outlines, gradients or neon effects.
+- Do not separate, move or resize the parts of a version.
+- Do not put the logo on a busy background without a solid area behind it.
+- Do not use the master symbol below 32 px: use the small-size version.
 
 ## 8. Notes
-- Aucune recherche d'antériorité n'a été faite. Avant de déposer la marque, il faut une recherche sur les bases INPI, EUIPO et WIPO, plus une recherche d'image inversée.
-- `board.html` est la planche de présentation, avec des mockups README, terminal, sticker, t-shirt, profil social et onglet.
+- No trademark clearance search has been done. Before registering the mark, search the INPI, EUIPO and WIPO databases, and run a reverse image search.
+- `presentation/board.html` is the presentation board, with README, terminal, sticker, T-shirt, social profile and browser tab mockups.

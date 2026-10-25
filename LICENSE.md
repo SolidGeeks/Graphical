@@ -1,11 +1,11 @@
-# Licence et marque
+# License and trademark
 
-Le nom **Solid Geeks** et son logo (tous les fichiers de ce dépôt) sont des marques du projet Solid Geeks.
+The **Solid Geeks** name and logo (every file in this repository) are trademarks of the Solid Geeks project.
 
-Tu peux les utiliser pour **désigner le projet** : lien vers un dépôt, article, présentation, badge « made by Solid Geeks », sticker, à condition de respecter le [guide d'usage](GUIDE.md) (couleurs, zone de protection, tailles minimales, interdits).
+You can use them **to refer to the project**: a link to a repository, an article, a talk, a "made by Solid Geeks" badge, a sticker, as long as you follow the [usage guide](GUIDE.md) (colours, clear space, minimum sizes, don'ts).
 
-Tu ne peux pas les utiliser pour **laisser croire à un soutien ou à une affiliation** qui n'existe pas, ni comme nom ou logo d'un autre produit, d'un fork ou d'un service.
+You cannot use them **to suggest an endorsement or an affiliation** that does not exist, or as the name or logo of another product, a fork or a service.
 
-C'est la règle de la section *Licensing* du [CONTRIBUTING](https://github.com/SolidGeeks/.github/blob/main/CONTRIBUTING.md) de l'organisation : le code est libre, le nom reste au projet.
+This is the rule in the *Licensing* section of the organization's [CONTRIBUTING](https://github.com/SolidGeeks/.github/blob/main/CONTRIBUTING.md): the code is free, the name stays with the project.
 
-Polices utilisées dans le logo : DejaVu Sans Mono (licence Bitstream Vera), vectorisée.
+Font used in the logo: DejaVu Sans Mono (Bitstream Vera license), outlined.
