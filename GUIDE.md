@@ -47,7 +47,7 @@ Le Volt n'a pas d'équivalent Pantone exact. Pour l'impression (stickers, t-shir
 ## 6. Avatars et web
 - **GitHub (organisation) et Discord (serveur) :** `png/sg-avatar-1024.png`. Il est prévu pour résister au recadrage rond.
 - **Aperçu social GitHub** (Settings → Social preview) : `png/sg-social-preview-1280x640.png`.
-- **Site :** copie le contenu de `web/` à la racine du site et colle `web/head-snippet.html` dans le `<head>`.
+- **Site :** copie le contenu de `web/` à côté de la page et colle `web/head-snippet.html` dans le `<head>`. Les chemins sont relatifs : ça marche aussi pour un site GitHub Pages servi dans un sous-dossier (`/SolidGeeks/`, `/strata/`…).
 - **README GitHub** (bascule automatique clair/sombre) :
 
 ```html
